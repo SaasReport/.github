@@ -1,132 +1,92 @@
 # 🚀 SaaS Report
 
-> **Enterprise-grade SaaS analytics and reporting platform powered by AI**
+> **Transform your SaaS metrics into investor-ready reports**
 
-[![Website](https://img.shields.io/badge/🌐-Website-blue)](https://saasreport.com)
-[![Documentation](https://img.shields.io/badge/📚-Docs-green)](https://docs.saasreport.com)
+[![Website](https://img.shields.io/badge/🌐-Website-blue)](https://saasreport.co)
+[![Documentation](https://img.shields.io/badge/📚-Docs-green)](https://docs.saasreport.co)
 [![Discord](https://img.shields.io/badge/💬-Discord-7289da)](https://discord.gg/saasreport)
-[![Status](https://img.shields.io/badge/📊-Status-brightgreen)](https://status.saasreport.com)
+[![Status](https://img.shields.io/badge/📊-Status-brightgreen)](https://status.saasreport.co)
 
-Transform your Stripe data into investor-ready reports with GPT-4o powered narratives. Built on Cloudflare's edge infrastructure for global performance and enterprise security.
+The leading SaaS analytics platform that transforms your Stripe data into beautiful, AI-powered reports for investors, board meetings, and strategic planning.
 
 ---
 
 ## 🏢 About SaaS Report
 
-SaaS Report is a comprehensive analytics platform designed specifically for SaaS businesses. We help companies turn their billing data into actionable insights through:
+SaaS Report helps SaaS businesses make sense of their metrics and communicate growth effectively:
 
-- **📈 Real-time Analytics**: MRR, ARR, churn, and cohort analysis
-- **🤖 AI-Powered Insights**: GPT-4o generated executive summaries
-- **📋 Professional Reports**: Investor-ready PDF reports with secure distribution
-- **🔐 Enterprise Security**: SOC 2 compliant with end-to-end encryption
-- **⚡ Global Performance**: Sub-100ms response times worldwide
+- **📊 Comprehensive Analytics**: Track MRR, ARR, churn, and customer cohorts
+- **🤖 AI-Generated Insights**: Smart summaries that explain what your numbers mean
+- **📋 Beautiful Reports**: Professional PDF reports ready for investors and stakeholders
+- **🔒 Enterprise Ready**: Bank-level security with compliance certifications
+- **⚡ Lightning Fast**: Get reports in seconds, not hours
 
 ## 📦 Repositories
 
-### Core Platform
-- **[`app`](https://github.com/SaasReport/app)** - Main application monorepo
-  - Cloudflare Workers API backend
-  - Stripe App frontend integration
-  - Multi-tenant D1 database
-  - Analytics engine with AI narratives
-
-### Libraries & Tools
-- **[`sdk`](https://github.com/SaasReport/sdk)** - TypeScript/JavaScript SDK for developers
-- **[`docs`](https://github.com/SaasReport/docs)** - Documentation and API references
+### Open Source
+- **[`app`](https://github.com/SaasReport/app)** - Main application and API
+- **[`docs`](https://github.com/SaasReport/docs)** - Documentation and guides
 - **[`examples`](https://github.com/SaasReport/examples)** - Integration examples and templates
 
-### Infrastructure
-- **[`terraform`](https://github.com/SaasReport/terraform)** - Infrastructure as Code for deployments
-- **[`helm-charts`](https://github.com/SaasReport/helm-charts)** - Kubernetes deployment charts
-
-## 🛠️ Tech Stack
-
-| Component | Technology | Purpose |
-|-----------|------------|---------|
-| **Backend** | Cloudflare Workers | Serverless API endpoints |
-| **Database** | Cloudflare D1 | Multi-tenant SQLite |
-| **Storage** | Cloudflare R2 | Report files and assets |
-| **Frontend** | React + TypeScript | Stripe App integration |
-| **AI** | OpenAI GPT-4o | Executive narrative generation |
-| **Email** | AWS SES | Report delivery |
-| **Monitoring** | Cloudflare Analytics | Performance and uptime |
+### Developer Tools
+- **[`sdk`](https://github.com/SaasReport/sdk)** - TypeScript/JavaScript SDK
+- **[`terraform`](https://github.com/SaasReport/terraform)** - Infrastructure deployment templates
 
 ## 🌟 Key Features
 
-### 📊 **Advanced Analytics**
-```mermaid
-graph LR
-    A[Stripe Data] --> B[Real-time Processing]
-    B --> C[MRR/ARR Calculations]
-    B --> D[Churn Analysis]
-    B --> E[Cohort Tracking]
-    C --> F[AI Insights]
-    D --> F
-    E --> F
-    F --> G[Executive Reports]
-```
+### 📊 **Smart Analytics**
+Automatically calculate and track the metrics that matter most to SaaS businesses:
+- Monthly Recurring Revenue (MRR) and Annual Recurring Revenue (ARR)
+- Customer churn and retention analysis
+- Revenue growth breakdown (new, expansion, contraction, churn)
+- Customer lifetime value and acquisition costs
+
+### 🤖 **AI-Powered Insights**
+Get context and meaning behind your numbers:
+- Executive summaries written in plain English
+- Trend analysis and anomaly detection
+- Actionable recommendations for growth
+- Industry benchmarking and comparisons
+
+### 📋 **Professional Reports**
+Generate beautiful reports in minutes:
+- Investor-ready PDF reports with your branding
+- Monthly, quarterly, or custom date ranges
+- Secure sharing with time-limited links
+- Email delivery to stakeholders
 
 ### 🔒 **Enterprise Security**
-- **Multi-tenant Architecture**: Complete isolation between customers
-- **Encryption**: AES-256-GCM for data at rest, TLS 1.3 in transit
-- **Access Control**: RBAC with usage-based limitations
-- **Compliance**: SOC 2, GDPR, CCPA ready
-
-### 🌍 **Global Infrastructure**
-- **Edge Computing**: Cloudflare Workers in 300+ cities
-- **Auto-scaling**: Handles traffic spikes automatically
-- **99.99% Uptime**: Built for enterprise reliability
-- **Global CDN**: Assets served from nearest edge location
+Built for businesses that take security seriously:
+- SOC 2 Type II certified infrastructure
+- End-to-end encryption for all data
+- GDPR and CCPA compliant
+- Role-based access controls
 
 ## 📈 Pricing Plans
 
-| Plan | Price | Reports/Month | AI Model | Use Case |
+| Plan | Price | Reports/Month | Features | Best For |
 |------|-------|---------------|----------|----------|
-| **Starter** | $599/mo | 25 | GPT-4o-mini | Growing startups |
-| **Team** | $1,999/mo | 150 | GPT-4o | Scale-ups |
-| **Enterprise** | $5,999/mo | 600 | GPT-4o | Large enterprises |
+| **Starter** | $599/mo/site | 25 | Basic analytics, AI summaries | Growing startups |
+| **Team** | $1,999/mo/site | 150 | Advanced analytics, team sharing | Scale-ups |
+| **Enterprise** | $5,999/mo/site | 600 | Custom integrations, priority support | Large enterprises |
 
-*All plans include secure report distribution, email delivery, and 24/7 support*
+*All plans are per site/per month. Add-ons available for additional integrations and features.*
 
 ## 🚀 Quick Start
 
-### For Stripe App Users
-1. Install the SaaS Report app from Stripe's App Marketplace
-2. Authorize read-only access to your Stripe data
-3. Generate your first report in under 60 seconds
+### Get Started in 3 Steps
+1. **Install** the SaaS Report app from Stripe's App Marketplace
+2. **Connect** your Stripe account with read-only permissions
+3. **Generate** your first professional report in under 60 seconds
 
-### For API Users
+### For Developers
+Use our SDK to integrate SaaS Report into your existing applications:
 ```bash
-# Install the SDK
 npm install @saasreport/sdk
-
-# Initialize client
-import { SaasReport } from '@saasreport/sdk';
-const client = new SaasReport({ apiKey: 'your-api-key' });
-
-# Generate a report
-const report = await client.reports.generate({
-  period: { start: '2024-01-01', end: '2024-01-31' },
-  type: 'monthly_kpis'
-});
 ```
 
-### Self-Hosted Deployment
-```bash
-# Clone the main repository
-git clone https://github.com/SaasReport/app.git
-cd app
-
-# Install dependencies
-pnpm install
-
-# Configure environment
-cp .env.example .env
-# Edit .env with your credentials
-
-# Deploy to Cloudflare
-pnpm deploy
-```
+### Enterprise Deployment
+Self-hosted options available for enterprise customers with custom requirements.
 
 ## 🤝 Contributing
 
@@ -155,31 +115,25 @@ We welcome contributions from the community! Here's how you can help:
 
 ## 🎯 Roadmap
 
-### Q1 2025
-- [ ] **QuickBooks Integration** - Connect accounting data for complete financial picture
-- [ ] **Shopify Integration** - E-commerce analytics and revenue reconciliation
-- [ ] **Advanced Cohort Analysis** - Customer lifetime value predictions
-- [ ] **Custom Branding** - White-label reports with company branding
+### Coming Soon
+- **QuickBooks Integration** - Complete financial picture with accounting data
+- **Shopify Integration** - E-commerce analytics and revenue reconciliation
+- **Custom Branding** - White-label reports with your company branding
+- **Mobile Apps** - iOS and Android apps for reporting on the go
 
-### Q2 2025
-- [ ] **Real-time Dashboards** - Live KPI monitoring and alerts
-- [ ] **API Rate Limiting** - Enhanced usage controls and monitoring
-- [ ] **Multi-language Support** - Reports in 10+ languages
-- [ ] **Mobile App** - iOS/Android apps for on-the-go reporting
-
-### Q3 2025
-- [ ] **Predictive Analytics** - ML-powered forecasting and recommendations
-- [ ] **Slack/Teams Integration** - Report delivery to team channels
-- [ ] **Data Warehouse Connectors** - BigQuery, Snowflake integrations
-- [ ] **Compliance Dashboard** - SOC 2, GDPR compliance monitoring
+### Future Features
+- **Predictive Analytics** - Forecasting and growth recommendations
+- **Team Collaboration** - Slack/Teams integration and shared dashboards
+- **Multi-language Support** - Reports in 10+ languages
+- **Advanced Integrations** - Connect with your favorite business tools
 
 ## 📞 Support & Community
 
 ### 🆘 **Getting Help**
-- **Documentation**: [docs.saasreport.com](https://docs.saasreport.com)
+- **Documentation**: [docs.saasreport.co](https://docs.saasreport.co)
 - **Community Support**: [Discord Server](https://discord.gg/saasreport)
-- **Email Support**: support@saasreport.com
-- **Enterprise Support**: enterprise@saasreport.com
+- **Email Support**: support@saasreport.co
+- **Enterprise Support**: enterprise@saasreport.co
 
 ### 💬 **Community**
 - **Discord**: [Join our community](https://discord.gg/saasreport) for real-time chat
@@ -190,7 +144,7 @@ We welcome contributions from the community! Here's how you can help:
 ### 📧 **Newsletter**
 Stay updated with monthly product updates, industry insights, and SaaS metrics best practices.
 
-[**Subscribe to our newsletter →**](https://saasreport.com/newsletter)
+[**Subscribe to our newsletter →**](https://saasreport.co/newsletter)
 
 ## 🏆 Recognition
 
@@ -211,12 +165,12 @@ Stay updated with monthly product updates, industry insights, and SaaS metrics b
 
 | Resource | Description | Link |
 |----------|-------------|------|
-| **Website** | Main product website | [saasreport.com](https://saasreport.com) |
-| **Documentation** | Complete API docs and guides | [docs.saasreport.com](https://docs.saasreport.com) |
-| **Status Page** | Real-time system status | [status.saasreport.com](https://status.saasreport.com) |
-| **Blog** | SaaS metrics insights and updates | [blog.saasreport.com](https://blog.saasreport.com) |
-| **Changelog** | Product updates and releases | [changelog.saasreport.com](https://changelog.saasreport.com) |
-| **Security** | Security practices and compliance | [security.saasreport.com](https://security.saasreport.com) |
+| **Website** | Main product website | [saasreport.co](https://saasreport.co) |
+| **Documentation** | Complete API docs and guides | [docs.saasreport.co](https://docs.saasreport.co) |
+| **Status Page** | Real-time system status | [status.saasreport.co](https://status.saasreport.co) |
+| **Blog** | SaaS metrics insights and updates | [blog.saasreport.co](https://blog.saasreport.co) |
+| **Changelog** | Product updates and releases | [changelog.saasreport.co](https://changelog.saasreport.co) |
+| **Security** | Security practices and compliance | [security.saasreport.co](https://security.saasreport.co) |
 
 ---
 
@@ -224,8 +178,8 @@ Stay updated with monthly product updates, industry insights, and SaaS metrics b
 
 **Built with ❤️ for the SaaS community**
 
-[Website](https://saasreport.com) •
-[Documentation](https://docs.saasreport.com) •
+[Website](https://saasreport.co) •
+[Documentation](https://docs.saasreport.co) •
 [Discord](https://discord.gg/saasreport) •
 [Twitter](https://twitter.com/saasreport) •
 [LinkedIn](https://linkedin.com/company/saasreport)
